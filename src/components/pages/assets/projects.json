@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Work Day Scheduler",
+      "image": "https://10jplz.github.io/Portfolio/assets/Workday.png",
+      "description": "Oorganize your day with this awesome Scheduler Each work hour is separated into a slot Tasks will be saved on your local storage web browser.",
+      "applink": "https://10jplz.github.io/DayPlanner/",
+      "gitrepo": "https://github.com/10jplz/DayPlanner"
+    },
+
+    {
+      "id": 2,
+      "name": "Weather App",
+      "image": "/css.png",
+      "occupation": "Fry Cook",
+      "location": "A Pineapple Under the Sea"
+    }
+
+
+
+]
