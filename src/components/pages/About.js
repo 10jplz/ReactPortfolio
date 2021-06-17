@@ -10,6 +10,7 @@ import Max from "./assets/Max.jpeg";
 function About() {
     return (
         <div>
+            <br/>
 
             <Container>
                 <Row>

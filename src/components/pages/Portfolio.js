@@ -3,6 +3,7 @@ import ProjectCard from "./assets/ProjectCard";
 import Wrapper from "./assets/Wrapper";
 import Title from "./assets/Title";
 import projects from "./assets/projects.json";
+import Container from "react-bootstrap/Container";
 
 class Portfolio extends Component {
   // Setting this.state.friends to the project json array
@@ -14,7 +15,8 @@ class Portfolio extends Component {
   // Map over this.state.friends and render a Project Card component for each project object
   render() {
     return (
-      <Wrapper>
+      <Container>
+        <Wrapper>
         <Title>Project List</Title>
         {this.state.projects.map(project => (
           <ProjectCard
@@ -29,6 +31,8 @@ class Portfolio extends Component {
           />
         ))}
       </Wrapper>
+      </Container>
+
     );
   }
 }

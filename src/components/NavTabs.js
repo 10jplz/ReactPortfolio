@@ -1,13 +1,17 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 
 function NavTabs() {
 
     const location = useLocation();
 
 return (
-    <ul className="nav nav-tabs">
-        <li className="nav-item">
+        <Container>
+    <ul className="nav nav-tabs bg-success text-light">
+        <li variant="dark" className="nav-item">
             <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
                 Home
             </Link>
@@ -41,6 +45,8 @@ return (
 
         
     </ul>
+    </Container>
+   
 );
 }
 
